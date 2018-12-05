@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.media.MediaView?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="335.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controlador">
+   <children>
+      <MediaView fx:id="mediaView" fitHeight="400.0" fitWidth="600.0" layoutX="200.0" layoutY="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane layoutX="361.0" layoutY="37.0" opacity="0.8" prefHeight="262.0" prefWidth="216.0" style="-fx-background-radius: 50px; -fx-background-color: #fff;">
+         <children>
+            <JFXTextField labelFloat="true" layoutX="41.0" layoutY="68.0" promptText="username" />
+            <JFXPasswordField labelFloat="true" layoutX="41.0" layoutY="119.0" promptText="password" />
+            <JFXButton layoutX="41.0" layoutY="191.0" prefHeight="25.0" prefWidth="135.0" style="-fx-background-color: blue;" text="logueamela" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
